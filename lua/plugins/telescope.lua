@@ -9,7 +9,7 @@ return {
 
     telescope.setup({
       defaults = {
-        path_display = { shorten = {len = 2} },
+        path_display = { shorten = "smart"},
       },
     })
 
